@@ -37,11 +37,12 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 
 # Challenge Progress
 
-| Day   | Topic                   | Status    |
-| ----- | ----------------------- | --------- |
+| Day | Topic | Status |
+|-----|---------------------------|--------|
 | Day 1 | Time Complexity (Big O) | Completed |
-| Day 2 | Arrays                  | Completed |
-| Day 3 | Linear Search           | Completed |
+| Day 2 | Arrays | Completed |
+| Day 3 | Linear Search | Completed |
+| Day 4 | Binary Search (Part 1) | Completed |
 
 > This progress table will be updated as new topics are completed.
 
@@ -51,9 +52,10 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 
 ## Completed
 
-* Time Complexity (Big O)
-* Arrays
-* Linear Search
+- Time Complexity (Big O)
+- Arrays
+- Linear Search
+- Binary Search (Concept & Dry Run)
 
 ## Upcoming
 
@@ -94,6 +96,10 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 │   ├── notes.md
 │   ├── dry-run.md
 │   └── practice.js
+│
+├── Day-04-Binary-Search/
+│   ├── notes.md
+│   └── dry-run.md
 │
 └── ...
 ```
