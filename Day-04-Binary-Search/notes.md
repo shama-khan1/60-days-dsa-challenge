@@ -191,3 +191,134 @@ Binary Search is faster than Linear Search because it reduces the search space b
 * If the target is greater than the middle element, search the right half.
 * If the target is smaller than the middle element, search the left half.
 * Binary Search has a time complexity of `O(log n)`.
+
+# Day 4 - Binary Search (Part 2)
+
+## Binary Search Algorithm
+
+Binary Search works only on a sorted array.
+
+It repeatedly checks the middle element and removes half of the search space until the target is found or the search space becomes empty.
+
+---
+
+## Steps
+
+1. Initialize:
+
+```js
+let low = 0;
+let high = arr.length - 1;
+```
+
+2. Calculate Middle
+
+```js
+let mid = Math.floor((low + high) / 2);
+```
+
+3. Compare
+
+```js
+arr[mid] === target
+```
+
+Return index.
+
+4. If
+
+```js
+arr[mid] > target
+```
+
+Search Left
+
+```js
+high = mid - 1;
+```
+
+5. If
+
+```js
+arr[mid] < target
+```
+
+Search Right
+
+```js
+low = mid + 1;
+```
+
+6. Repeat until
+
+```js
+low > high
+```
+
+7. Return
+
+```js
+return -1;
+```
+
+if target is not found.
+
+---
+
+# Time Complexity
+
+Best Case
+
+O(1)
+
+Worst Case
+
+O(log n)
+
+Average Case
+
+O(log n)
+
+---
+
+# Space Complexity
+
+O(1)
+
+---
+
+# Why Binary Search is Fast?
+
+Because in every iteration it removes half of the remaining search space.
+
+Example
+
+16 elements
+
+↓
+
+8
+
+↓
+
+4
+
+↓
+
+2
+
+↓
+
+1
+
+This is why Binary Search runs in O(log n).
+
+---
+
+# Important Interview Points
+
+- Works only on sorted arrays.
+- low, high and mid store indexes.
+- Return index, not value.
+- Stop when low becomes greater than high.
+- Return -1 if target is not present.
