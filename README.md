@@ -10,39 +10,42 @@ This repository documents my daily learning journey of **Data Structures and Alg
 
 # About This Repository
 
-This repository serves as a record of my daily DSA practice. Each topic includes well-structured notes, JavaScript implementations, and algorithm analysis to reinforce my understanding and track my progress throughout the challenge.
+This repository serves as a record of my daily DSA practice. Each topic includes well-structured notes, JavaScript implementations, dry runs, algorithm analysis, and interview-focused concepts to reinforce my understanding and track my progress throughout the challenge.
 
 ---
 
 # Goals
 
-* Learn Data Structures and Algorithms from beginner to advanced.
-* Strengthen problem-solving and analytical thinking.
-* Improve JavaScript programming skills.
-* Understand Time and Space Complexity.
-* Practice coding consistently every day.
-* Build a professional GitHub portfolio.
-* Prepare for technical interviews.
+- Learn Data Structures and Algorithms from beginner to advanced.
+- Strengthen problem-solving and analytical thinking.
+- Improve JavaScript programming skills.
+- Master Time and Space Complexity analysis.
+- Practice coding consistently every day.
+- Build a professional GitHub portfolio.
+- Prepare for technical interviews.
 
 ---
 
 # Tech Stack
 
-* **Language:** JavaScript (ES6+)
-* **Code Editor:** Visual Studio Code
-* **Version Control:** Git
-* **Repository Hosting:** GitHub
+- **Language:** JavaScript (ES6+)
+- **Code Editor:** Visual Studio Code
+- **Version Control:** Git
+- **Repository Hosting:** GitHub
 
 ---
 
 # Challenge Progress
 
 | Day | Topic | Status |
-|-----|---------------------------|--------|
+|-----|----------------------------------------------|-----------|
 | Day 1 | Time Complexity (Big O) | Completed |
 | Day 2 | Arrays | Completed |
 | Day 3 | Linear Search | Completed |
-| Day 4 | Binary Search (Part 1) | Completed |
+| Day 4 | Binary Search (Concept & Dry Run) | Completed |
+| Day 5 | Binary Search - First Occurrence | Completed |
+| Day 6 | Binary Search - Last Occurrence | Completed |
+| Day 7 | Binary Search - Count Occurrences | Completed |
 
 > This progress table will be updated as new topics are completed.
 
@@ -55,25 +58,31 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 - Time Complexity (Big O)
 - Arrays
 - Linear Search
-- Binary Search (Concept & Dry Run)
+- Binary Search
+- Search Insert Position
+- First Occurrence
+- Last Occurrence
+- Count Occurrences
 
 ## Upcoming
 
-* Binary Search
-* Recursion
-* Sorting Algorithms
-* Strings
-* Linked Lists
-* Stacks
-* Queues
-* Trees
-* Binary Search Trees
-* Heaps
-* Hashing
-* Graphs
-* Greedy Algorithms
-* Backtracking
-* Dynamic Programming
+- Lower Bound
+- Upper Bound
+- Floor and Ceil
+- Recursion
+- Sorting Algorithms
+- Strings
+- Linked Lists
+- Stacks
+- Queues
+- Trees
+- Binary Search Trees
+- Heaps
+- Hashing
+- Graphs
+- Greedy Algorithms
+- Backtracking
+- Dynamic Programming
 
 ---
 
@@ -99,7 +108,23 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 │
 ├── Day-04-Binary-Search/
 │   ├── notes.md
-│   └── dry-run.md
+│   ├── dry-run.md
+│   └── practice.js
+│
+├── Day-05-Binary-Search-Interview-Questions/
+│   ├── notes.md
+│   ├── dry-run.md
+│   └── practice.js
+│
+├── Day-06-Binary-Search-Interview-Questions/
+│   ├── notes.md
+│   ├── dry-run.md
+│   └── practice.js
+│
+├── Day-07-Binary-Search-Interview-Questions/
+│   ├── notes.md
+│   ├── dry-run.md
+│   └── practice.js
 │
 └── ...
 ```
@@ -114,29 +139,31 @@ Each day's folder contains learning resources and coding practice.
 
 Contains:
 
-* Topic explanation
-* Core concepts
-* Time and Space Complexity
-* Interview notes
-* Important observations
+- Topic explanation
+- Core concepts
+- Time Complexity
+- Space Complexity
+- Interview notes
+- Common mistakes
+- Important observations
 
 ## practice.js
 
 Contains:
 
-* JavaScript implementation
-* Practice examples
-* Test cases
-* Coding exercises
+- JavaScript implementation
+- Multiple test cases
+- Practice examples
+- Interview-based coding solutions
 
-## dry-run.md *(Added where applicable)*
+## dry-run.md
 
 Contains:
 
-* Step-by-step algorithm execution
-* Manual dry runs
-* Iteration analysis
-* Logic visualization
+- Step-by-step algorithm execution
+- Manual dry runs
+- Iteration analysis
+- Logic visualization
 
 ---
 
@@ -147,11 +174,12 @@ For every topic, I follow a structured learning process:
 1. Learn the concept.
 2. Understand the algorithm.
 3. Write detailed notes.
-4. Perform a manual dry run (when applicable).
+4. Perform a manual dry run.
 5. Implement the algorithm in JavaScript.
-6. Practice additional examples.
-7. Commit the changes to GitHub.
-8. Share my learning journey on LinkedIn.
+6. Test the solution with multiple test cases.
+7. Analyze Time and Space Complexity.
+8. Commit the changes to GitHub.
+9. Share my learning journey on LinkedIn.
 
 ---
 
@@ -161,12 +189,12 @@ Consistency is one of the most important skills for becoming a better software d
 
 This challenge helps me:
 
-* Build strong DSA fundamentals.
-* Improve logical thinking.
-* Develop disciplined coding habits.
-* Track daily learning progress.
-* Create a professional GitHub portfolio.
-* Prepare for coding interviews.
+- Build strong DSA fundamentals.
+- Improve logical thinking.
+- Develop disciplined coding habits.
+- Track daily learning progress.
+- Create a professional GitHub portfolio.
+- Prepare for coding interviews.
 
 ---
 
@@ -174,11 +202,16 @@ This challenge helps me:
 
 ### Completed Topics
 
-* Time Complexity (Big O)
-* Arrays
-* Linear Search
+- Time Complexity (Big O)
+- Arrays
+- Linear Search
+- Binary Search
+- Search Insert Position
+- First Occurrence
+- Last Occurrence
+- Count Occurrences
 
-New topics will be added as the challenge progresses.
+More topics will be added as I continue this challenge.
 
 ---
 
