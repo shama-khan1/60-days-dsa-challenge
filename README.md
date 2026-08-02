@@ -38,7 +38,7 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 # Challenge Progress
 
 | Day | Topic | Status |
-|-----|----------------------------------------------|-----------|
+|-----|--------------------------------------------------|-----------|
 | Day 1 | Time Complexity (Big O) | Completed |
 | Day 2 | Arrays | Completed |
 | Day 3 | Linear Search | Completed |
@@ -46,6 +46,7 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 | Day 5 | Binary Search - First Occurrence | Completed |
 | Day 6 | Binary Search - Last Occurrence | Completed |
 | Day 7 | Binary Search - Count Occurrences | Completed |
+| Day 8 | Binary Search - Lower Bound and Upper Bound | Completed |
 
 > This progress table will be updated as new topics are completed.
 
@@ -63,12 +64,13 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 - First Occurrence
 - Last Occurrence
 - Count Occurrences
+- Lower Bound
+- Upper Bound
 
 ## Upcoming
 
-- Lower Bound
-- Upper Bound
 - Floor and Ceil
+- Binary Search on Answers
 - Recursion
 - Sorting Algorithms
 - Strings
@@ -122,6 +124,11 @@ This repository serves as a record of my daily DSA practice. Each topic includes
 │   └── practice.js
 │
 ├── Day-07-Binary-Search-Interview-Questions/
+│   ├── notes.md
+│   ├── dry-run.md
+│   └── practice.js
+│
+├── Day-08-Binary-Search-Interview-Questions/
 │   ├── notes.md
 │   ├── dry-run.md
 │   └── practice.js
@@ -210,6 +217,8 @@ This challenge helps me:
 - First Occurrence
 - Last Occurrence
 - Count Occurrences
+- Lower Bound
+- Upper Bound
 
 More topics will be added as I continue this challenge.
 
